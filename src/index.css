@@ -1,0 +1,24 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: #353b48;
+  font-family: 'Inconsolata', Courier, monospace;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#zangdar_root {
+  position: relative;
+}
+
+.zangdar_layer {
+  position: absolute;
+  overflow: hidden;
+}
+
+.zangdar_tile {
+  position: absolute;
+  overflow: hidden;
+}
