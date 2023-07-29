@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "declaration": true,
+    "lib": ["es2017", "dom", "dom.iterable"],
+    "module": "ESNext",
+    "target": "ESNext",
+    "moduleResolution": "node",
+    "removeComments": false,
+    "sourceMap": true,
+    "strict": true,
+    "outDir": "./dist"
+  },
+  "include": ["src/**/*"],
+  "exclude": ["dist/", "node_modules/"]
+}

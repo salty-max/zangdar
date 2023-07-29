@@ -1,0 +1,21 @@
+{
+  "name": "zangdar",
+  "version": "0.1.0",
+  "license": "MIT",
+  "scripts": {
+    "build": "parcel build src",
+    "dev": "parcel watch src/index.html",
+    "lint": "eslint src",
+    "prepublishOnly": "yarn build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "@parcel/transformer-typescript-tsc": "^2.9.3",
+    "@typescript-eslint/eslint-plugin": "^6.2.0",
+    "@typescript-eslint/parser": "^6.2.0",
+    "eslint": "^8.46.0",
+    "parcel": "^2.9.3",
+    "prettier": "^3.0.0",
+    "typescript": "^5.1.6"
+  }
+}
